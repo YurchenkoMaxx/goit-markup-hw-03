@@ -225,14 +225,14 @@ border-bottom: 1px solid #e7e9fc;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 .ourteam-about {
     display: flex;
     flex-direction: column;
     padding-bottom: 32px 0;
     align-items: center;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 .ourteam-list {
     display: flex;
