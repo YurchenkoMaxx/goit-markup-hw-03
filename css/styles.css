@@ -21,6 +21,9 @@ ul, ol {
 img {
     display: block;
 }
+main {
+    flex-grow: 1;
+}
 
 /*common*/
 
@@ -329,5 +332,19 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 100vh;
+
+
+}
+
 
