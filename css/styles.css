@@ -213,14 +213,18 @@ border-bottom: 1px solid #e7e9fc;
 /* ------------------SECTION 3 OURTEAM--------------- */
 
 .ourteam {
-        background-color: #F4F4FD;
+        background-color: #F4F4FD
+        padding: 120px 0;;
 }
 
-.ourteam-container{
-    padding: 120px 0;
+.ourteam-about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px 0;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 .ourteam-tittle {
-    padding-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -236,41 +240,34 @@ border-bottom: 1px solid #e7e9fc;
 
 }
 .ourteam-item{
+    width:calc((100% - 3 * 24) / 4);
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 32px
+    gap: 32px;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
 }
 .ourteam-name{
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .ourteam-text{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
-.ourteam-about{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 32px 16px;
-    justify-content: center;
 
-
-}
 
 /* ------------------SECTION 4 PORTFOLIO--------------- */
 .portfolio{
