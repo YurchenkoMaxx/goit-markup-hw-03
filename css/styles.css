@@ -111,7 +111,7 @@ border-bottom: 1px solid #e7e9fc;
 /* ------------------SECTION 1 PAGE HERO--------------- */
 
 
-.page-hero{
+.page-hero-section{
     padding: 188px 0;
     margin-bottom: 120px;
     background-color: #2e2f42;
@@ -187,8 +187,8 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     gap: 24px;
-
     }
+
 
 .chapter-tittle {
     font-weight: 500;
@@ -215,16 +215,35 @@ border-bottom: 1px solid #e7e9fc;
 .ourteam {
         background-color: #F4F4FD;
 }
+
+.ourteam-container{
+    padding: 120px 0;
+}
 .ourteam-tittle {
+    padding-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.ourteam-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
 }
 .ourteam-item{
     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
 }
 .ourteam-name{
     font-weight: 500;
@@ -242,6 +261,15 @@ border-bottom: 1px solid #e7e9fc;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+}
+
+.ourteam-about{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px 16px;
+    justify-content: center;
+
+
 }
 
 /* ------------------SECTION 4 PORTFOLIO--------------- */
