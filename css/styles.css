@@ -270,6 +270,7 @@ border-bottom: 1px solid #e7e9fc;
 /* ------------------SECTION 4 PORTFOLIO--------------- */
 .portfolio{
     background-color: #FFFFFF;
+    padding: 120px 0;
 }
 
 .portfolio-tittle{
@@ -280,8 +281,14 @@ border-bottom: 1px solid #e7e9fc;
     text-align: center;
     color: #2e2f42;
     background-color: #FFFFFF;
+    margin-bottom: 72px;
 }
-
+.portfolio-list {
+    display: flex;
+    align-items: center;
+    gap: 24px 40px;
+    flex-wrap: wrap;
+}
 .portfolio-name{
     font-weight: 500;
         font-size: 20px;
