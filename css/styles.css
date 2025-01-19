@@ -212,9 +212,9 @@ border-bottom: 1px solid #e7e9fc;
 
 /* ------------------SECTION 3 OURTEAM--------------- */
 
-.ourteam-container{
-        background-color: #F4F4FD
-        padding: 120px 0;;
+.ourteam{
+        background-color: #F4F4FD;
+        padding: 120px 0;
 }
 
 .ourteam-about {
