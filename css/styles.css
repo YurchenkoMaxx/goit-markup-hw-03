@@ -6,7 +6,7 @@
 /*-------reset---------*/
 
 
-h1, h2, h3, h4, h5, h6,  {
+h1, h2, h3, h4, h5, h6, p  {
     margin: 0;
     }
 
@@ -230,10 +230,9 @@ border-bottom: 1px solid #e7e9fc;
 .ourteam-about {
     display: flex;
     flex-direction: column;
-    padding-bottom: 32px 0;
     align-items: center;
-    /*margin-bottom: 8px;*/
-    /*width: calc((100% - 3 * 24) / 4);*/
+    gap: 8px;
+    padding: 32px 0;
 }
 .ourteam-list {
     display: flex;
@@ -256,7 +255,6 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing:  0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 0px 0px 32px 0px;
 }
 
 .ourteam-text {
