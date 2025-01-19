@@ -296,17 +296,10 @@ border-bottom: 1px solid #e7e9fc;
 .portfolio-list {
     display: flex;
     align-items: center;
-    gap: 24px;
     flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
-.list-first {
-    padding-bottom: 48px;
-}
-
-/*.list-second 
-    padding-bottom: 40px;
-}*/
 
 .portfolio-name {
     font-weight: 500;
