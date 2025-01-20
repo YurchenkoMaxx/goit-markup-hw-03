@@ -329,13 +329,7 @@ border-bottom: 1px solid #e7e9fc;
     padding-top: 100px;
 }
 
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    max-width: 264px;
-}
+
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -345,6 +339,13 @@ border-bottom: 1px solid #e7e9fc;
     flex-wrap: wrap;
     min-height: 100vh;
 }
-
+.footer-text {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
 
 
