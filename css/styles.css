@@ -125,6 +125,15 @@ border-bottom: 1px solid #e7e9fc;
     justify-content: center;
     align-items: center;
 }*/
+.page-hero-tittle {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto 48px;
+}
 
 .page-hero-button{
     display: block;
